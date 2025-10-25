@@ -6,10 +6,13 @@ To run W&B sweeps across various hyperparameters of the VGG6 model on the CIFAR-
 
 # Repoitory Structure
 
-- model/ - contains model script with requirements for running on the local machine
-- collab notebooks/ - contains ipynb files for reference
+- model/ - contains model script (training script), test script, trained model and the requirements.txt file to reproduce test results
+- collab notebooks/ - contains ipynb files for reference (used for W&B sweeps and the model training)
 
 # Steps to reproduce the best model performance
+All relevant scripts and files are present in the `model/` folder of this repository
+
+Follow the below steps to setup your local system to run the model scripts
 
 ## Setting up conda (optional)
 Refer to the official documentation for more details - https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html
@@ -19,5 +22,8 @@ Refer to the official documentation for more details - https://docs.conda.io/pro
 
 ## Running the VGG6 model
 `python dl_assignment_1_vgg6_model.py`
+
+## Running the eval script using the trained VGG6 model
+`python test.py`
 
 **Python 3.13.5** was used while running the scripts locally
