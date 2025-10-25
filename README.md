@@ -6,6 +6,9 @@ To run W&B sweeps across various hyperparameters of the VGG6 model on the CIFAR-
 
 # Repoitory Structure
 
+- model/ - contains model script with requirements for running on the local machine
+- collab notebooks/ - contains ipynb files for reference
+
 # Steps to reproduce the best model performance
 
 ## Setting up conda (optional)
@@ -16,3 +19,5 @@ Refer to the official documentation for more details - https://docs.conda.io/pro
 
 ## Running the VGG6 model
 `python dl_assignment_1_vgg6_model.py`
+
+**Python 3.13.5** was used while running the scripts locally
