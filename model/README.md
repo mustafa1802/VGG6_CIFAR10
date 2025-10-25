@@ -5,6 +5,7 @@
 
 # Expected Training Output
 
+```
 Epoch 0 - Train_Loss: 1.4941 , Train_acc: 55.07, Test_acc : 57.40
 Epoch 1 - Train_Loss: 1.2179 , Train_acc: 60.66, Test_acc : 64.80
 Epoch 2 - Train_Loss: 1.0462 , Train_acc: 67.01, Test_acc : 69.78
@@ -56,5 +57,4 @@ Epoch 47 - Train_Loss: 0.4001 , Train_acc: 86.34, Test_acc : 85.64
 Epoch 48 - Train_Loss: 0.4067 , Train_acc: 85.87, Test_acc : 85.27
 Epoch 49 - Train_Loss: 0.4044 , Train_acc: 85.73, Test_acc : 85.34
 
-# Final Top-1 Test Accuracy
 Final Test Top-1 Accuracy: 85.34%
