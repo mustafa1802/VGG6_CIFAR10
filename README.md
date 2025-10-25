@@ -4,7 +4,7 @@ This repository contains results from the experiments conducted as part of an as
 # Task
 To run W&B sweeps across various hyperparameters of the VGG6 model on the CIFAR-10 dataset and choose the best performing model (based on the W&B parallel plot). Using the confguration of the best performing model, train the VGG6 model using the CIFAR-10 dataset and report the top-1 test accuracy for the best performing model
 
-# Repoitory Structure
+# Repository Structure
 
 - model/ - contains model script (training script), test script, trained model and the requirements.txt file to reproduce test results
 - collab notebooks/ - contains ipynb files for reference (used for W&B sweeps and the model training)
