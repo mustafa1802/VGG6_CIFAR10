@@ -4,6 +4,20 @@ This repository contains results from the experiments conducted as part of an as
 # Task
 To run W&B sweeps across various hyperparameters of the VGG6 model on the CIFAR-10 dataset and choose the best performing model (based on the W&B parallel plot). Using the confguration of the best performing model, train the VGG6 model using the CIFAR-10 dataset and report the top-1 test accuracy for the best performing model
 
+# Top Model Configuration
+```
+-----------------------------
+Hyperparameter	      Value |
+----------------------------|
+Activation Function	|  GELU |
+Optimizer	        |  Adam |
+Learning Rate	    |  0.001|
+Batch Size	        |  32   |
+Epochs	            |  50   |
+Batch_norm	        |  True |
+-----------------------------
+```
+
 # Repository Structure
 
 - model/ - contains model script (training script), test script, trained model and the requirements.txt file to reproduce test results
@@ -26,4 +40,13 @@ Refer to the official documentation for more details - https://docs.conda.io/pro
 ## Running the eval script using the trained VGG6 model
 `python test.py`
 
-**Python 3.13.5** was used while running the scripts locally
+# System Configuration
+```
+Package                   Installed Version
+---------------------------------------------
+torch                     2.9.0
+numpy                     2.3.4
+Pillow                    12.0.0
+matplotlib                3.10.7
+torchvision               0.24.0
+Python                    3.13.5
