@@ -1,9 +1,17 @@
+# Description
+- **dl_assignment_1_vgg6_model.py** - Training module to train the best performing model on the CIFAR-10 dataset
+- **test.py** - Evaluation module to run the trained model on the test dataset of CIFAR-10
+- **vgg6_cifar10_model.pth** - The trained top model on the CIFAR-10 dataset
+- **requirements.txt** - Contains dependency modules required to run the training/eval modules
+
 # Best Performing Model Configuration
 
 <img width="1870" height="897" alt="image" src="https://github.com/user-attachments/assets/03eea16f-675a-4429-9ce9-c38be65bea0d" />
 
 
 # Expected Training Output
+
+Expected output of the training script - 
 
 ```
 Epoch 0 - Train_Loss: 1.4941 , Train_acc: 55.07, Test_acc : 57.40
